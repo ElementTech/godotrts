@@ -4,6 +4,7 @@
 [ext_resource type="Material" uid="uid://co8vfcoqqs5i8" path="res://source/match/resources/materials/terrain.material.tres" id="2_sguro"]
 [ext_resource type="PackedScene" uid="uid://bf3jjdafqvh0w" path="res://source/match/units/non-player/ResourceA.tscn" id="3_3gxbc"]
 [ext_resource type="PackedScene" uid="uid://bufgjfa3ne3uk" path="res://source/match/units/non-player/ResourceB.tscn" id="4_4hhxt"]
+[ext_resource type="PackedScene" uid="uid://btor1402wkw8k" path="res://source/match/decorations/RockLargeA.tscn" id="5_blryv"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_frqq2"]
 resource_local_to_scene = true
@@ -79,3 +80,23 @@ transform = Transform3D(0.960455, 0, 0.278438, 0, 1, 0, -0.278438, 0, 0.960455, 
 
 [node name="ResourceB4" parent="Resources" index="15" instance=ExtResource("4_4hhxt")]
 transform = Transform3D(-0.976807, 0, 0.214122, 0, 1, 0, -0.214122, 0, -0.976807, 13.7599, -5.72204e-06, 33.992)
+
+[node name="Wall0" type="Node3D" parent="Decorations" index="0"]
+
+[node name="RockLargeA" parent="Decorations/Wall0" index="0" instance=ExtResource("5_blryv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 10)
+
+[node name="Wall1" type="Node3D" parent="Decorations" index="1"]
+
+[node name="RockLargeA" parent="Decorations/Wall1" index="0" instance=ExtResource("5_blryv")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 44, 0, 10)
+
+[node name="Wall2" type="Node3D" parent="Decorations" index="2"]
+
+[node name="RockLargeA" parent="Decorations/Wall2" index="0" instance=ExtResource("5_blryv")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 44, 0, 44)
+
+[node name="Wall3" type="Node3D" parent="Decorations" index="3"]
+
+[node name="RockLargeA" parent="Decorations/Wall3" index="0" instance=ExtResource("5_blryv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 44)

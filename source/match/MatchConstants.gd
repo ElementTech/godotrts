@@ -9,12 +9,6 @@ const MAPS = {
 		"players": 4,
 		"size": Vector2i(50, 50),
 	},
-	"res://source/match/maps/BigArena.tscn":
-	{
-		"name": "Big Arena",
-		"players": 8,
-		"size": Vector2i(100, 100),
-	},
 }
 
 
