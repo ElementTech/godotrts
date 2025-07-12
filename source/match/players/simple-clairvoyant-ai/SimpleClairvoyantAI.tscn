@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://1qlllsy6h5tc"]
 
-[ext_resource type="Script" path="res://source/match/players/simple-clairvoyant-ai/SimpleClairvoyantAI.gd" id="1_shcx6"]
-[ext_resource type="Script" path="res://source/match/players/simple-clairvoyant-ai/EconomyController.gd" id="2_otp5l"]
-[ext_resource type="Script" path="res://source/match/players/simple-clairvoyant-ai/DefenseController.gd" id="3_jharw"]
-[ext_resource type="Script" path="res://source/match/players/simple-clairvoyant-ai/OffenseController.gd" id="4_3nwat"]
-[ext_resource type="Script" path="res://source/match/players/simple-clairvoyant-ai/IntelligenceController.gd" id="5_cxy6e"]
-[ext_resource type="Script" path="res://source/match/players/simple-clairvoyant-ai/ConstructionWorksController.gd" id="6_cbdwc"]
+[ext_resource type="Script" uid="uid://l6toybkxtiuw" path="res://source/match/players/simple-clairvoyant-ai/SimpleClairvoyantAI.gd" id="1_shcx6"]
+[ext_resource type="Script" uid="uid://c2s71mbyd5w5u" path="res://source/match/players/simple-clairvoyant-ai/EconomyController.gd" id="2_otp5l"]
+[ext_resource type="Script" uid="uid://duo6q6hkiinlw" path="res://source/match/players/simple-clairvoyant-ai/DefenseController.gd" id="3_jharw"]
+[ext_resource type="Script" uid="uid://dpta11b0ihq5c" path="res://source/match/players/simple-clairvoyant-ai/OffenseController.gd" id="4_3nwat"]
+[ext_resource type="Script" uid="uid://83mnxi1dua0m" path="res://source/match/players/simple-clairvoyant-ai/IntelligenceController.gd" id="5_cxy6e"]
+[ext_resource type="Script" uid="uid://m8wsre3kivvg" path="res://source/match/players/simple-clairvoyant-ai/ConstructionWorksController.gd" id="6_cbdwc"]
 
 [node name="SimpleClairvoyantAI" type="Node3D"]
 script = ExtResource("1_shcx6")

@@ -1,10 +1,10 @@
 [gd_scene load_steps=7 format=3 uid="uid://b6n7cwv706x5n"]
 
-[ext_resource type="Script" path="res://source/match/debug/GodModeHud.gd" id="1_n4lpk"]
-[ext_resource type="Script" path="res://source/match/debug/UnitsManager.gd" id="3_1fe88"]
-[ext_resource type="Script" path="res://source/match/debug/TimeManager.gd" id="4_0nfe7"]
-[ext_resource type="Script" path="res://source/match/debug/FogOfWarManager.gd" id="5_8n1qy"]
-[ext_resource type="Script" path="res://source/match/debug/VisiblePlayerManager.gd" id="5_tlapw"]
+[ext_resource type="Script" uid="uid://kjln5fj0co36" path="res://source/match/debug/GodModeHud.gd" id="1_n4lpk"]
+[ext_resource type="Script" uid="uid://c5fggumi5ht4g" path="res://source/match/debug/UnitsManager.gd" id="3_1fe88"]
+[ext_resource type="Script" uid="uid://65t6jwy2md3i" path="res://source/match/debug/TimeManager.gd" id="4_0nfe7"]
+[ext_resource type="Script" uid="uid://cwcflnwvejdpu" path="res://source/match/debug/FogOfWarManager.gd" id="5_8n1qy"]
+[ext_resource type="Script" uid="uid://blwpb7rrmvpmy" path="res://source/match/debug/VisiblePlayerManager.gd" id="5_tlapw"]
 
 [sub_resource type="ButtonGroup" id="ButtonGroup_0h5ms"]
 resource_local_to_scene = false
